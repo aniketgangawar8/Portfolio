@@ -14,11 +14,10 @@ body{
 height: 64px;
 }
 
-
 nav ul {
     display: flex;
    align-items: center;
-    justify-content:center;
+    justify-content:flex-end;
     padding-left: 1000px;
     list-style: none;
 }
@@ -26,9 +25,31 @@ nav ul li {
     display: flex;
     align-content: space-between;
     padding: 24px;
+    padding-top: 6px;
 }
 
-#skill-section{
+.header {
     display: flex;
     align-content: center;
+    justify-content: flex-end;
+    
+}
+
+.hero-content {
+    display: flex;
+    align-content: flex-start;
+    padding-top: 64px;
+}
+
+.hero-content h1 {
+    align-content: center;
+    justify-content: center;
+    padding-top: 64px;
+    padding-left: 24px;
+    padding-right: 128px;
+}
+
+.hero-content p {
+    align-content: center;
+    padding-top: 320px;
 }
